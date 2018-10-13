@@ -1,0 +1,1086 @@
+ncverilog: 14.10-p001: (c) Copyright 1995-2014 Cadence Design Systems, Inc.
+file: top_gates.v
+	module worklib.output_buffer_1:v
+		errors: 0, warnings: 0
+	module worklib.output_buffer_0:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_15:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_14:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_13:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_12:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_11:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_10:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_9:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_8:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_7:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_6:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_5:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_4:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_3:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_2:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_1:v
+		errors: 0, warnings: 0
+	module worklib.FSM_DW02_mult_4_stage_J4_0:v
+		errors: 0, warnings: 0
+	module worklib.fft:v
+		errors: 0, warnings: 0
+	module worklib.top:v
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD2QX2.tsbvlibp
+	module tc240c.CFD2QX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD2QXL.tsbvlibp
+	module tc240c.CFD2QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD2QX1.tsbvlibp
+	module tc240c.CFD2QX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND3XL.tsbvlibp
+	module tc240c.CND3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND3X1.tsbvlibp
+	module tc240c.CND3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2X1.tsbvlibp
+	module tc240c.CND2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2XL.tsbvlibp
+	module tc240c.CND2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND4X1.tsbvlibp
+	module tc240c.CND4X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND4XL.tsbvlibp
+	module tc240c.CND4XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR1XL.tsbvlibp
+	module tc240c.CANR1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2XL.tsbvlibp
+	module tc240c.CNR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2X1.tsbvlibp
+	module tc240c.CNR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR1X1.tsbvlibp
+	module tc240c.CANR1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND1XL.tsbvlibp
+	module tc240c.COND1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNIVX2.tsbvlibp
+	module tc240c.CNIVX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND2X1.tsbvlibp
+	module tc240c.COND2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND2XL.tsbvlibp
+	module tc240c.COND2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNIVX1.tsbvlibp
+	module tc240c.CNIVX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2IX1.tsbvlibp
+	module tc240c.CNR2IX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2X2.tsbvlibp
+	module tc240c.CND2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNIVX4.tsbvlibp
+	module tc240c.CNIVX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX12.tsbvlibp
+	module tc240c.CIVX12:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNIVX3.tsbvlibp
+	module tc240c.CNIVX3:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX8.tsbvlibp
+	module tc240c.CIVX8:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX4.tsbvlibp
+	module tc240c.CIVX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVXL.tsbvlibp
+	module tc240c.CIVXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2X2.tsbvlibp
+	module tc240c.CMX2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2IX4.tsbvlibp
+	module tc240c.CNR2IX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2X4.tsbvlibp
+	module tc240c.CNR2X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN4X1.tsbvlibp
+	module tc240c.CAN4X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2IX2.tsbvlibp
+	module tc240c.CNR2IX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2X2.tsbvlibp
+	module tc240c.CNR2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2X4.tsbvlibp
+	module tc240c.CND2X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX3.tsbvlibp
+	module tc240c.CIVX3:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR2X1.tsbvlibp
+	module tc240c.CANR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR3X1.tsbvlibp
+	module tc240c.CNR3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR2XL.tsbvlibp
+	module tc240c.CANR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND1X1.tsbvlibp
+	module tc240c.COND1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNIVXL.tsbvlibp
+	module tc240c.CNIVXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX2.tsbvlibp
+	module tc240c.CIVX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVX1.tsbvlibp
+	module tc240c.CIVX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp
+	module tc240c.CIVDX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND3X4.tsbvlibp
+	module tc240c.CND3X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN4XL.tsbvlibp
+	module tc240c.CAN4XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2IXL.tsbvlibp
+	module tc240c.CND2IXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR2IXL.tsbvlibp
+	module tc240c.CNR2IXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR2XL.tsbvlibp
+	module tc240c.COR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND3XL.tsbvlibp
+	module tc240c.COND3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN2XL.tsbvlibp
+	module tc240c.CAN2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN6X1.tsbvlibp
+	module tc240c.CAN6X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COAN1X1.tsbvlibp
+	module tc240c.COAN1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2IX2.tsbvlibp
+	module tc240c.CND2IX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2IX1.tsbvlibp
+	module tc240c.CND2IX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN3XL.tsbvlibp
+	module tc240c.CAN3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN2X1.tsbvlibp
+	module tc240c.CAN2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR3X1.tsbvlibp
+	module tc240c.CANR3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR2X1.tsbvlibp
+	module tc240c.COR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND3X2.tsbvlibp
+	module tc240c.CND3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND11XL.tsbvlibp
+	module tc240c.COND11XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR3XL.tsbvlibp
+	module tc240c.CNR3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR3XL.tsbvlibp
+	module tc240c.CANR3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVDX2.tsbvlibp
+	module tc240c.CIVDX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND4X2.tsbvlibp
+	module tc240c.CND4X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNIVX16.tsbvlibp
+	module tc240c.CNIVX16:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVDX3.tsbvlibp
+	module tc240c.CIVDX3:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR3X2.tsbvlibp
+	module tc240c.CNR3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR2X2.tsbvlibp
+	module tc240c.CANR2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND3X1.tsbvlibp
+	module tc240c.COND3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN3X2.tsbvlibp
+	module tc240c.CAN3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN2X2.tsbvlibp
+	module tc240c.CAN2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND1X2.tsbvlibp
+	module tc240c.COND1X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR2X1.tsbvlibp
+	module tc240c.CAOR2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR1X2.tsbvlibp
+	module tc240c.CANR1X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN3X1.tsbvlibp
+	module tc240c.CAN3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND2X2.tsbvlibp
+	module tc240c.COND2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR3X1.tsbvlibp
+	module tc240c.COR3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR3XL.tsbvlibp
+	module tc240c.COR3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR2X2.tsbvlibp
+	module tc240c.COR2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR3X4.tsbvlibp
+	module tc240c.CNR3X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMXI2X1.tsbvlibp
+	module tc240c.CMXI2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COAN1XL.tsbvlibp
+	module tc240c.COAN1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp
+	module tc240c.CIVDXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR2XL.tsbvlibp
+	module tc240c.CAOR2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR1XL.tsbvlibp
+	module tc240c.CAOR1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR1X1.tsbvlibp
+	module tc240c.CAOR1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR2X2.tsbvlibp
+	module tc240c.CAOR2X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2X1.tsbvlibp
+	module tc240c.CMX2X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR11X1.tsbvlibp
+	module tc240c.CANR11X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND11X2.tsbvlibp
+	module tc240c.COND11X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND2IX4.tsbvlibp
+	module tc240c.CND2IX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND1X4.tsbvlibp
+	module tc240c.COND1X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR3X2.tsbvlibp
+	module tc240c.CANR3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR11X2.tsbvlibp
+	module tc240c.CANR11X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND2X4.tsbvlibp
+	module tc240c.COND2X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CIVDX4.tsbvlibp
+	module tc240c.CIVDX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR4X1.tsbvlibp
+	module tc240c.COR4X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR4X2.tsbvlibp
+	module tc240c.CNR4X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR4CX1.tsbvlibp
+	module tc240c.CANR4CX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMXI2XL.tsbvlibp
+	module tc240c.CMXI2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN2X4.tsbvlibp
+	module tc240c.CAN2X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR11XL.tsbvlibp
+	module tc240c.CANR11XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR4X1.tsbvlibp
+	module tc240c.CNR4X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN4X2.tsbvlibp
+	module tc240c.CAN4X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR2X4.tsbvlibp
+	module tc240c.CANR2X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND11X1.tsbvlibp
+	module tc240c.COND11X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CND4X4.tsbvlibp
+	module tc240c.CND4X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD1QX2.tsbvlibp
+	module tc240c.CFD1QX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD1QXL.tsbvlibp
+	module tc240c.CFD1QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD1QX4.tsbvlibp
+	module tc240c.CFD1QX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CENX1.tsbvlibp
+	module tc240c.CENX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CENX4.tsbvlibp
+	module tc240c.CENX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEO3X1.tsbvlibp
+	module tc240c.CEO3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFA1X1.tsbvlibp
+	module tc240c.CFA1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CENX2.tsbvlibp
+	module tc240c.CENX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEOXL.tsbvlibp
+	module tc240c.CEOXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CENXL.tsbvlibp
+	module tc240c.CENXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEO3X2.tsbvlibp
+	module tc240c.CEO3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CHA1XL.tsbvlibp
+	module tc240c.CHA1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CHA1X1.tsbvlibp
+	module tc240c.CHA1X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEOX2.tsbvlibp
+	module tc240c.CEOX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEOX1.tsbvlibp
+	module tc240c.CEOX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEO3XL.tsbvlibp
+	module tc240c.CEO3XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFA1XL.tsbvlibp
+	module tc240c.CFA1XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEOX4.tsbvlibp
+	module tc240c.CEOX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEN3X1.tsbvlibp
+	module tc240c.CEN3X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CEN3X2.tsbvlibp
+	module tc240c.CEN3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFA1X2.tsbvlibp
+	module tc240c.CFA1X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR5CX1.tsbvlibp
+	module tc240c.CANR5CX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND4CX1.tsbvlibp
+	module tc240c.COND4CX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD2QX4.tsbvlibp
+	module tc240c.CFD2QX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp
+	module tc240c.CFD2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CFD4QX4.tsbvlibp
+	module tc240c.CFD4QX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COND4CXL.tsbvlibp
+	module tc240c.COND4CXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN6X2.tsbvlibp
+	module tc240c.CAN6X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COAN1X2.tsbvlibp
+	module tc240c.COAN1X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR1X4.tsbvlibp
+	module tc240c.CANR1X4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR4XL.tsbvlibp
+	module tc240c.CNR4XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2XL.tsbvlibp
+	module tc240c.CMX2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CANR4CXL.tsbvlibp
+	module tc240c.CANR4CXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR4XL.tsbvlibp
+	module tc240c.COR4XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAOR1X2.tsbvlibp
+	module tc240c.CAOR1X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN8XL.tsbvlibp
+	module tc240c.CAN8XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR3X2.tsbvlibp
+	module tc240c.COR3X2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CMX2GXL.tsbvlibp
+	module tc240c.CMX2GXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN6XL.tsbvlibp
+	module tc240c.CAN6XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR8XL.tsbvlibp
+	module tc240c.COR8XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CNR8X1.tsbvlibp
+	module tc240c.CNR8X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR6X1.tsbvlibp
+	module tc240c.COR6X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/CAN8X1.tsbvlibp
+	module tc240c.CAN8X1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/COR6XL.tsbvlibp
+	module tc240c.COR6XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD2QX2.tsbvlibp
+	module tc240c.tsbCFD2QX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD2QXL.tsbvlibp
+	module tc240c.tsbCFD2QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD2QX1.tsbvlibp
+	module tc240c.tsbCFD2QX1:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TMUX21prim.tsbvlibp
+	primitive tc240c.TMUX21prim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TMUX21INVprim.tsbvlibp
+	primitive tc240c.TMUX21INVprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX2.tsbvlibp
+	module tc240c.tsbCFD1QX2:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QXL.tsbvlibp
+	module tc240c.tsbCFD1QXL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD1QX4.tsbvlibp
+	module tc240c.tsbCFD1QX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TADDR2Sprim.tsbvlibp
+	primitive tc240c.TADDR2Sprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TADDR2Cprim.tsbvlibp
+	primitive tc240c.TADDR2Cprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD2QX4.tsbvlibp
+	module tc240c.tsbCFD2QX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD2XL.tsbvlibp
+	module tc240c.tsbCFD2XL:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbCFD4QX4.tsbvlibp
+	module tc240c.tsbCFD4QX4:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/tsbMUXXprim.tsbvlibp
+	primitive tc240c.tsbMUXXprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TFDPRBNOprim.tsbvlibp
+	primitive tc240c.TFDPRBNOprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TFDPNOprim.tsbvlibp
+	primitive tc240c.TFDPNOprim:tsbvlibp
+		errors: 0, warnings: 0
+file: /apps/toshiba/sjsu/verilog/tc240c/TFDPSBNOprim.tsbvlibp
+	primitive tc240c.TFDPSBNOprim:tsbvlibp
+		errors: 0, warnings: 0
+		Caching library 'tc240c' ....... Done
+		Caching library 'worklib' ....... Done
+	Elaborating the design hierarchy:
+  CIVDX1 U1339 ( .A(addr1[0]), .Z0(n10470) );
+             |
+ncelab: *W,CUVWSP (./fft_gates.v,30541|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z1
+
+  CIVDX1 U34674 ( .A(n33739), .Z1(n73488) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,66906|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDXL U99966 ( .A(n127685), .Z1(n89733) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,158920|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+  output_buffer_0 IMAG_OUT_BUFFER ( .clock(clk), .startout_d(start_out), 
+                                |
+ncelab: *W,CUVWSP (./fft_gates.v,483570|32): 1 output port was not connected:
+ncelab: (./fft_gates.v,198193): startout
+
+  CIVDX1 U8032 ( .A(n124176), .Z1(n107004) );
+             |
+ncelab: *W,CUVWSP (./fft_gates.v,235642|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U8239 ( .A(n104179), .Z1(n104909) );
+             |
+ncelab: *W,CUVWSP (./fft_gates.v,235858|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U8286 ( .A(n78748), .Z1(n104960) );
+             |
+ncelab: *W,CUVWSP (./fft_gates.v,235905|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDXL U23524 ( .A(n112711), .Z1(n121797) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,252773|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+  CIVDX1 U35064 ( .A(n113242), .Z1(n122421) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,265554|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U57736 ( .A(n118279), .Z1(n102503) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,297456|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U64991 ( .A(n79743), .Z1(n122280) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,309304|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65019 ( .A(n82725), .Z1(n122041) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,309338|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65206 ( .A(n79707), .Z1(n122017) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,309608|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65249 ( .A(n79654), .Z1(n121942) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,309653|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65288 ( .A(n82711), .Z1(n122113) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,309694|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65326 ( .A(n82872), .Z1(n121370) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,309734|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65831 ( .A(n78563), .Z1(n122232) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,310380|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U65975 ( .A(n78623), .Z1(n122493) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,310538|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U66009 ( .A(n78830), .Z1(n122470) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,310574|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U66060 ( .A(n78390), .Z1(n122562) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,310633|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U66124 ( .A(n78577), .Z1(n122256) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,310702|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U67168 ( .A(n82887), .Z1(n122066) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,312567|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U69296 ( .A(n79682), .Z1(n121967) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,316361|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U69344 ( .A(n78876), .Z1(n122587) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,316411|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U69663 ( .A(n86856), .Z1(n121463) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,316784|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U69712 ( .A(n79757), .Z1(n121822) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,316842|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U69825 ( .A(n83067), .Z1(n121417) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,317001|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U69897 ( .A(n82998), .Z1(n122351) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,317081|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U70034 ( .A(n83160), .Z1(n122375) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,317232|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U70305 ( .A(n82984), .Z1(n122137) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,317590|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U70600 ( .A(n82753), .Z1(n121608) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,317904|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U70793 ( .A(n78844), .Z1(n122810) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,318161|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U70870 ( .A(n78404), .Z1(n122640) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,318268|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U71401 ( .A(n82902), .Z1(n121584) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,318985|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U75684 ( .A(n78734), .Z1(n122785) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,325314|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U75795 ( .A(n78509), .Z1(n122739) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,325444|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U84798 ( .A(n120618), .Z1(n112316) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,338459|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U86318 ( .A(n79351), .Z1(n118886) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,340722|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDXL U87157 ( .A(n124507), .Z1(n71925) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,341822|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+  CIVDXL U88305 ( .A(n110662), .Z1(n101385) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,343259|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+  CIVDX1 U89800 ( .A(n108630), .Z1(n118820) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,345088|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U90655 ( .A(n123973), .Z1(n118595) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,346267|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U93479 ( .A(n79456), .Z1(n120131) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,350065|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U94110 ( .A(n112696), .Z1(n118995) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,350777|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95223 ( .A(n80252), .Z1(n119038) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352176|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95260 ( .A(n80356), .Z1(n119162) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352227|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95283 ( .A(n79303), .Z1(n119970) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352257|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95295 ( .A(n109095), .Z1(n119706) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352273|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95363 ( .A(n80288), .Z1(n118951) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352364|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95382 ( .A(n112645), .Z1(n119016) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352390|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95404 ( .A(n79468), .Z1(n119793) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352420|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U95514 ( .A(n80268), .Z1(n119596) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,352569|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDXL U98831 ( .A(n104216), .Z1(n68735) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,356727|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+  CIVDXL U104498 ( .A(n124495), .Z1(n118662) );
+               |
+ncelab: *W,CUVWSP (./fft_gates.v,364254|15): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+  CFD2XL \FSM_DUT/BF_MUL1/twiddle_imaginary_ff_reg[7]  ( .D(\FSM_DUT/n2320 ), 
+                                                     |
+ncelab: *W,CUVWSP (./fft_gates.v,567344|53): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \INP_INT_BUFFER/BUF/imag_input_buffer_reg[43][19]  ( .D(
+                                                          |
+ncelab: *W,CUVWSP (./fft_gates.v,567346|58): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \INP_INT_BUFFER/BUF/imag_intermediate_buffer_reg[5][26]  ( .D(
+                                                                |
+ncelab: *W,CUVWSP (./fft_gates.v,567349|64): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CFD2XL \INP_INT_BUFFER/BUF/real_input_buffer_reg[153][2]  ( .D(
+                                                          |
+ncelab: *W,CUVWSP (./fft_gates.v,567352|58): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CFD2XL.tsbvlibp,7): QN
+
+  CIVDX1 U7876 ( .A(n98773), .Z1(n119050) );
+             |
+ncelab: *W,CUVWSP (./fft_gates.v,577921|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U8250 ( .A(n109558), .Z1(n109274) );
+             |
+ncelab: *W,CUVWSP (./fft_gates.v,578345|13): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX1 U47860 ( .A(n26282), .Z1(n137015) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,651035|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDX2 U58316 ( .A(n3599), .Z0(n129264) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,665417|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX2.tsbvlibp,12): Z1
+
+  CIVDX1 U74479 ( .A(n57460), .Z1(n124705) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,695774|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDX1.tsbvlibp,12): Z0
+
+  CIVDXL U90305 ( .A(n135929), .Z1(n133388) );
+              |
+ncelab: *W,CUVWSP (./fft_gates.v,724605|14): 1 output port was not connected:
+ncelab: (/apps/toshiba/sjsu/verilog/tc240c/CIVDXL.tsbvlibp,12): Z0
+
+	Building instance overlay tables: .................... Done
+	Generating native compiled code:
+		tc240c.CANR11X1:tsbvlibp <0x6c68203b>
+			streams:   0, words:     0
+		tc240c.CANR11X2:tsbvlibp <0x219a65db>
+			streams:   0, words:     0
+		tc240c.CANR11XL:tsbvlibp <0x08b578c0>
+			streams:   0, words:     0
+		tc240c.CANR1X1:tsbvlibp <0x32e072c1>
+			streams:   0, words:     0
+		tc240c.CANR1X2:tsbvlibp <0x707ba2a4>
+			streams:   0, words:     0
+		tc240c.CANR1X4:tsbvlibp <0x6bb2025f>
+			streams:   0, words:     0
+		tc240c.CANR1XL:tsbvlibp <0x323e7f23>
+			streams:   0, words:     0
+		tc240c.CANR2X1:tsbvlibp <0x2a3eaf4b>
+			streams:   0, words:     0
+		tc240c.CANR2X2:tsbvlibp <0x2b11775a>
+			streams:   0, words:     0
+		tc240c.CANR2X4:tsbvlibp <0x2cb70778>
+			streams:   0, words:     0
+		tc240c.CANR2XL:tsbvlibp <0x4079c8e0>
+			streams:   0, words:     0
+		tc240c.CANR3X1:tsbvlibp <0x3e51f799>
+			streams:   0, words:     0
+		tc240c.CANR3X2:tsbvlibp <0x4f830a08>
+			streams:   0, words:     0
+		tc240c.CANR3XL:tsbvlibp <0x0e7ee922>
+			streams:   0, words:     0
+		tc240c.CANR4CX1:tsbvlibp <0x15d5a7d1>
+			streams:   0, words:     0
+		tc240c.CANR4CXL:tsbvlibp <0x4e2d2f35>
+			streams:   0, words:     0
+		tc240c.CANR5CX1:tsbvlibp <0x3d49d4d3>
+			streams:   0, words:     0
+		tc240c.CAOR1X1:tsbvlibp <0x678a55b8>
+			streams:   0, words:     0
+		tc240c.CAOR1X2:tsbvlibp <0x25258590>
+			streams:   0, words:     0
+		tc240c.CAOR1XL:tsbvlibp <0x66e8621a>
+			streams:   0, words:     0
+		tc240c.CAOR2X1:tsbvlibp <0x18217e01>
+			streams:   0, words:     0
+		tc240c.CAOR2X2:tsbvlibp <0x18f44610>
+			streams:   0, words:     0
+		tc240c.CAOR2XL:tsbvlibp <0x2e5c9796>
+			streams:   0, words:     0
+		tc240c.CEN3X1:tsbvlibp <0x7b0b2e5b>
+			streams:   0, words:     0
+		tc240c.CEN3X2:tsbvlibp <0x2f76c9aa>
+			streams:   0, words:     0
+		tc240c.CENX1:tsbvlibp <0x704e71c7>
+			streams:   0, words:     0
+		tc240c.CENX2:tsbvlibp <0x779f6b3c>
+			streams:   0, words:     0
+		tc240c.CENX4:tsbvlibp <0x06415e1b>
+			streams:   0, words:     0
+		tc240c.CENXL:tsbvlibp <0x35d8c108>
+			streams:   0, words:     0
+		tc240c.CEO3X1:tsbvlibp <0x5089eefe>
+			streams:   0, words:     0
+		tc240c.CEO3X2:tsbvlibp <0x04f58a4d>
+			streams:   0, words:     0
+		tc240c.CEO3XL:tsbvlibp <0x57e35103>
+			streams:   0, words:     0
+		tc240c.CEOX1:tsbvlibp <0x69c2d0d1>
+			streams:   0, words:     0
+		tc240c.CEOX2:tsbvlibp <0x7113ca46>
+			streams:   0, words:     0
+		tc240c.CEOX4:tsbvlibp <0x7fb5bd30>
+			streams:   0, words:     0
+		tc240c.CEOXL:tsbvlibp <0x2f4d2012>
+			streams:   0, words:     0
+		tc240c.CFA1X1:tsbvlibp <0x40074d60>
+			streams:   0, words:     0
+		tc240c.CFA1X2:tsbvlibp <0x5b78fb06>
+			streams:   0, words:     0
+		tc240c.CFA1XL:tsbvlibp <0x25049da0>
+			streams:   0, words:     0
+		tc240c.CHA1X1:tsbvlibp <0x13899413>
+			streams:   0, words:     0
+		tc240c.CHA1XL:tsbvlibp <0x0d077476>
+			streams:   0, words:     0
+		tc240c.CMX2GXL:tsbvlibp <0x1faee4d5>
+			streams:   0, words:     0
+		tc240c.CMX2X1:tsbvlibp <0x0c2f6af0>
+			streams:   0, words:     0
+		tc240c.CMX2X2:tsbvlibp <0x3d87d195>
+			streams:   0, words:     0
+		tc240c.CMX2XL:tsbvlibp <0x40823de9>
+			streams:   0, words:     0
+		tc240c.CMXI2X1:tsbvlibp <0x03c9a59c>
+			streams:   0, words:     0
+		tc240c.CMXI2XL:tsbvlibp <0x381c7895>
+			streams:   0, words:     0
+		tc240c.COAN1X1:tsbvlibp <0x68bfa7fe>
+			streams:   0, words:     0
+		tc240c.COAN1X2:tsbvlibp <0x7516a8e2>
+			streams:   0, words:     0
+		tc240c.COAN1XL:tsbvlibp <0x35ecbfe9>
+			streams:   0, words:     0
+		tc240c.COND11X1:tsbvlibp <0x13993f8a>
+			streams:   0, words:     0
+		tc240c.COND11X2:tsbvlibp <0x221b7bc5>
+			streams:   0, words:     0
+		tc240c.COND11XL:tsbvlibp <0x1b5599a2>
+			streams:   0, words:     0
+		tc240c.COND1X1:tsbvlibp <0x42276f35>
+			streams:   0, words:     0
+		tc240c.COND1X2:tsbvlibp <0x4e7e7019>
+			streams:   0, words:     0
+		tc240c.COND1X4:tsbvlibp <0x672c71e1>
+			streams:   0, words:     0
+		tc240c.COND1XL:tsbvlibp <0x0f548720>
+			streams:   0, words:     0
+		tc240c.COND2X1:tsbvlibp <0x3890d055>
+			streams:   0, words:     0
+		tc240c.COND2X2:tsbvlibp <0x77afc756>
+			streams:   0, words:     0
+		tc240c.COND2X4:tsbvlibp <0x75edb54d>
+			streams:   0, words:     0
+		tc240c.COND2XL:tsbvlibp <0x60d4dce1>
+			streams:   0, words:     0
+		tc240c.COND3X1:tsbvlibp <0x4f7a411e>
+			streams:   0, words:     0
+		tc240c.COND3XL:tsbvlibp <0x43deb4ea>
+			streams:   0, words:     0
+		tc240c.COND4CX1:tsbvlibp <0x48484586>
+			streams:   0, words:     0
+		tc240c.COND4CXL:tsbvlibp <0x7a0f4eb7>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QX2:tsbvlibp <0x7b7ac52c>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QX4:tsbvlibp <0x1ddce9ff>
+			streams:   0, words:     0
+		tc240c.tsbCFD1QXL:tsbvlibp <0x3a76a446>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QX1:tsbvlibp <0x6487f6f0>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QX2:tsbvlibp <0x568312c8>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QX4:tsbvlibp <0x3a794a78>
+			streams:   0, words:     0
+		tc240c.tsbCFD2QXL:tsbvlibp <0x6a03e6d9>
+			streams:   0, words:     0
+		tc240c.tsbCFD2XL:tsbvlibp <0x624119c0>
+			streams:   0, words:     0
+		tc240c.tsbCFD4QX4:tsbvlibp <0x6cc84375>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_0:v <0x5ef7193f>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_10:v <0x32fff113>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_11:v <0x4c37c354>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_12:v <0x5c418cec>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_13:v <0x30f203f3>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_14:v <0x338d61b5>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_15:v <0x0f13feb6>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_1:v <0x2d5b17eb>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_2:v <0x22f4f119>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_3:v <0x77a1654c>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_4:v <0x1ef08f43>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_5:v <0x3ab8ffdb>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_6:v <0x0d45051b>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_7:v <0x027810ef>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_8:v <0x3ef9ca38>
+			streams:   0, words:     0
+		worklib.FSM_DW02_mult_4_stage_J4_9:v <0x3149d9ff>
+			streams:   0, words:     0
+		worklib.fft:v <0x7ad8a6d3>
+			streams:   0, words:     0
+		worklib.output_buffer_1:v <0x5139f7dd>
+			streams:   0, words:     0
+		worklib.top:v <0x7233e5c8>
+			streams:   9, words: 20974
+	Loading native compiled code:     .................... Done
+	Building instance specific data structures.
+	Design hierarchy summary:
+		                     Instances  Unique
+		Modules:                521829     179
+		UDPs:                    57944       8
+		Primitives:            3401088       9
+		Timing outputs:         486376      92
+		Registers:               40406      41
+		Scalar wires:           526813       -
+		Expanded wires:             80       4
+		Always blocks:               1       1
+		Initial blocks:              4       4
+		Cont. assignments:           0      33
+		Pseudo assignments:          4       4
+		Timing checks:          356046  156089
+		Simulation timescale:     10ps
+	Writing initial simulation snapshot: worklib.top:v
+Loading snapshot worklib.top:v .................... Done
+ncsim> source /apps/cadence/INCISIV141/tools/inca/files/ncsimrc
+ncsim> run
+
+
+
+I'm all done now
+You did good!
+
+
+
+Simulation complete via $finish(1) at time 40580 NS + 0
+./top_gates.v:186                 $finish;
+ncsim> exit

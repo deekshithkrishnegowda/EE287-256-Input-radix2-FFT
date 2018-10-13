@@ -1,0 +1,3 @@
+#!/usr/bin/csh
+source /apps/design_environment.csh
+ncverilog +libext+.tsbvlibp +access+r +sv31a -y /apps/toshiba/sjsu/verilog/tc240c $argv

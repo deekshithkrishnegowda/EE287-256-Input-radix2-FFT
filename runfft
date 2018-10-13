@@ -1,0 +1,236 @@
+#!/usr/bin/python
+
+import sys
+import time
+import os
+import subprocess
+import socket
+import argparse
+from string import find
+from datetime import date
+
+success="You did good!"
+
+fname="fft.v"
+
+  
+###############################
+# copies a file if needed     #
+###############################
+def copyifneeded(localfile,remotefile):
+  if(os.path.isfile(localfile)):
+    return
+  print("\nCopying {0} to local directory".format(str(localfile)))
+  cmd = ["cp", str(remotefile), str(localfile) ]
+  subprocess.call(cmd)
+####################################
+# checks to see if a file contains #
+# any substrings passed            #
+####################################
+def filehasany(fn,stx):
+  rv = False
+  if(os.path.isfile(fn)):
+    fw = open(fn,"r")
+    for ln in fw.readlines():
+      for sub in stx:
+        if( find(ln.lower(),sub)>= 0 ):
+          print "-->",ln.strip(),"<--"
+          rv=True
+  return rv
+
+###############################
+# checks to see if a file has #
+# a string                    #
+###############################
+def filehas(fn,stx):
+  if(os.path.isfile(fn)):
+    fw = open(fn,"r")
+    for ln in fw.readlines():
+      if( find(ln,stx)>=0 ):
+        print "-->",ln.strip(),"<--"
+        fw.close()
+        return True
+    fw.close()
+  return False
+##############################
+# run vcs simulation         #
+##############################
+def runvcs(debopt):
+  subprocess.call(["rm","-rf","simres.txt","simv","simv.daidir","csrc"])
+  res = subprocess.check_output(["id","-u"])
+  try:
+      bob=int(res)
+  except:
+      bob=42
+  dtxt="-DRSEED={0}".format(bob)
+  if debopt :
+      dtxt+=" -DDEB"
+  subprocess.call(["csh","-c",
+    "./sv_vcs top.v {0} | tee simres.txt".format(dtxt)])
+  if(filehas("simres.txt",success)):
+    if(debopt):
+      resfile.write("debug {0} \n".format(debopt))
+    resfile.write("VCS simulation worked\n");
+    print "\n\n\n------ VCS simulation worked \n\n\n"
+  else:
+    resfile.write("VCS FAILED TO WORK\n")
+    print "\n\n\nVCS Failed to work\n\n"
+    resfile.close()
+    exit()
+##############################
+# run ncverilog simulation   #
+##############################
+def runnc(debopt):
+  print "\n\n    Starting NC verilog \n\n"
+  subprocess.call(["rm","-rf","simres.txt"])
+  dtxt=""
+  if debopt :
+      dtxt="+define+DEB"
+  subprocess.call(["csh","-c",
+    "./sv_nc top.v {0} | tee simres.txt".format(dtxt)])
+  if(filehas("simres.txt",success)):
+    if(debopt):
+      resfile.write("debug {0} \n".format(debopt))
+    resfile.write("NCverilog simulation worked\n");
+    print "\n\n\n------ NCverilog simulation worked \n\n\n"
+  else:
+    resfile.write("NCverilog FAILED TO WORK\n")
+    print "\n\n\nNCVerilog failed to work\n\n"
+    resfile.close()
+    exit()
+##############################
+# run ncverilog gate sim     #
+##############################
+def rungates(debopt,clkperiod):
+  print "\n\n    Starting NC verilog gate level simulation\n\n"
+  subprocess.call(["rm","-rf","simres.txt"])
+  dtxt=""
+  if debopt :
+      dtxt="+define+DEB"
+  ctxt="+define+CTime={0}".format(clkperiod)
+  subprocess.call(["csh","-c",
+    "./sv_ncgates top_gates.v {0} {1}| tee simres.txt".format(dtxt,ctxt)])
+  if(filehas("simres.txt",success)):
+    if(debopt):
+      resfile.write("debug {0}\n".format(debopt))
+    resfile.write("Gate level simulation worked\n");
+    print "\n\n\n------ Gate level simulation worked \n\n\n"
+  else:
+    resfile.write("Gates FAILED TO WORK\n")
+    print "\n\n\nGates failed to work\n\n"
+    resfile.close()
+    exit()
+#####################################
+# makes a synthesis script of the things
+#####################################
+def makeSynScript(fn,clkx):
+  clkperiod = float(clkx);
+  fs = open(fn,"w")
+  fs.write("""set link_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25 /apps/synopsys/I-2013.12-SP5/libraries/syn/dw_foundation.sldb}
+set target_library {/apps/toshiba/sjsu/synopsys/tc240c/tc240c.db_NOMIN25}
+""")
+  fs.write("read_sverilog {0}\n".format("fft.v"))
+  fs.write("current_design fft\n")
+  fs.write("create_clock clk -name clk -period {0}\n".format(clkperiod*0.75))
+  fs.write("""set_propagated_clock clk
+set_clock_uncertainty 0.25 clk
+set_propagated_clock clk
+set_output_delay 0.5 -clock clk [all_outputs]
+set all_inputs_wo_rst_clk [remove_from_collection [remove_from_collection [all_inputs] [get_port clk]] [get_port reset]]
+set_driving_cell -lib_cell CND2X1 $all_inputs_wo_rst_clk
+set_input_delay 0.6 -clock clk $all_inputs_wo_rst_clk
+set_output_delay 0.6 -clock clk [all_outputs]
+set_fix_hold [ get_clocks clk ]
+""")
+  fs.write("set_output_delay 0.3 -clock clk [all_outputs]\n")
+  fs.write("set_max_delay {0} -from [all_inputs] -to [all_outputs]\n".format(clkperiod*0.7))
+  fs.write("compile_ultra\n")
+  fs.write("create_clock clk -name clk -period {0}\n".format(clkperiod))
+  fs.write("""
+update_timing
+report_timing -max_paths 5
+""")
+  fs.write("""write -hierarchy -format verilog -output fft_gates.v
+""")
+  fs.write("quit\n")
+  fs.close()
+    
+#####################################
+# run the synopsys synthesizer      #
+#####################################
+def runsynthesis(clkperiod):
+  makeSynScript("synthesis.script",clkperiod)
+  fq = open("sss","w")
+  fq.write("""#!/usr/bin/csh
+source /apps/design_environment.csh
+which dc_shell
+dc_shell -f synthesis.script | tee synres.txt
+""")
+  fq.close()
+  subprocess.call(["chmod","+x","sss"])
+  subprocess.call(["rm","-f","synres.txt"])
+  subprocess.call(["./sss"])
+  if( not os.path.isfile("synres.txt") ):
+    resfile.write("///// Synthesis failed to produce results /////\n")
+    print "\n\nNo synthesis results\n\n"
+    exit()
+  if( filehasany("synres.txt",["error","latch","violated","timing arc"]) ):
+    resfile.write("///// Synthesis failed /////\n");
+    print "\n\nsynthesis failed\n\n"
+    exit()
+  resfile.write("Synthesis finished OK\n")
+####################################
+# The main routine                 #
+####################################
+def mainx():
+  clkperiod=3.3
+  resfn="results.txt"
+
+  parser = argparse.ArgumentParser(description='300 Mhz fft project')
+  parser.add_argument("-s","--synthesis",dest="synthesis",default=False,help="only run synthesis",action="store_true");
+  parser.add_argument("--nogates",dest="nogates",default=False,help="No gate level simulation", action="store_true")
+  parser.add_argument("-d","--debug",dest="debug",default=False,help="Debug mode",action="store_true")
+  parser.add_argument("-g","--gates",dest="gates",default=False,help="just simulate gates",action="store_true")
+  parser.add_argument("clkperiod",default=5)
+  parser.add_argument("resultsFileName",default="results.txt")
+  args = parser.parse_args()
+  print args
+#  return
+  if(find(args.resultsFileName,".v")>0 or args.resultsFileName.find(".sv")>0):
+    print("the second argument should be the result name\n")
+    print("Not a design file name")
+    return
+  resfn=args.resultsFileName
+  clkperiod=float(args.clkperiod)
+  global resfile
+  resfile = open(resfn,"w")
+  resfile.write("runfft script run started on {0}\n".format(str(time.asctime())))
+  resfile.write("run on machine {0}\n\n".format(socket.gethostname()))
+  resfile.write("Run with a clock period of {0}\n".format(clkperiod));
+  
+  copyifneeded("sv_vcs","/home/morris/287/s18/fft/sv_vcs")
+  copyifneeded("top.v","/home/morris/287/s18/fft/top.v")
+  copyifneeded("top_gates.v","/home/morris/287/s18/fft/top_gates.v")
+  copyifneeded("sv_nc","/home/morris/287/s18/fft/sv_nc")
+  copyifneeded("sv_ncgates","/home/morris/287/s18/fft/sv_ncgates")
+  copyifneeded("fft_cases.txt","/home/morris/287/s18/fft/fft_cases.txt")
+  copyifneeded("gates_cases.txt","/home/morris/287/s18/fft/gates_cases.txt")
+  print "options syn {0} gates {1}".format(args.synthesis,args.gates)
+  resfile.write( "options syn {0} gates {1}\n".format(args.synthesis,args.gates))
+  if(not (args.synthesis or args.gates) ):
+    runvcs(args.debug)
+    runnc(args.debug)
+  if( not (args.gates) ):
+    runsynthesis(clkperiod)
+  if( not (args.nogates) ):
+    rungates(args.debug,clkperiod)
+  if(args.synthesis or args.gates or args.nogates):
+    resfile.write("--->> Partial run, do not submit for credit <<--\n")
+    print "--->> Partial run, do not submit for credit <<--\n"
+    resfile.close()
+    exit()
+  resfile.write("Completed the fft run\n")
+  print("\n\n\nCompleted the fft run\n\n")
+  resfile.close()
+
+mainx()
